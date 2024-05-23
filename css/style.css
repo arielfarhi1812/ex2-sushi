@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+body,
+main,
+footer,
+nav,
+section,
+div {
+    display: block;
+}
+
+body {
+    background: #FFF;
+    margin-bottom: 287px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 128px;
+    font-family: Nunito;
+    line-height: normal;
+    font-style: normal;
+}
+
+#logo {
+    background-image: url(../images/logo.jpg);
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    height: 64px;
+    width: 64px;
+    margin-left: 32px;
+    padding-right: 135px;
+}
+
+#logo span {
+    color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 6px;
+    padding-left: 70px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 64px;
+    margin-right: 135px;
+}
+
+nav a {
+    color: #612999;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home_page, #Our_sushi_page {
+    font-weight: 700;
+}
+
+nav a:hover {
+    color: #c38cf3;
+}
