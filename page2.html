@@ -16,6 +16,42 @@
             <a href="#">Contact</a>
         </nav>
     </header>
+    <div id="wrapper">
+        <main>
+            <section class="top_images">
+                <img src="images/inside-out.png" alt="inside_out_roll" title="inside_out_roll">
+                <img id="middle_image" src="images/tamago.webp" alt="nigiri_tamago" title="nigiri_tamago">
+                <img src="images/avocado-roll.jpg" alt="avocado_roll" title="avocado_roll">
+            </section>
+            <h2>List Of Sushi Rolls</h2>
+            <ul>
+                <li><div class="rocket_ship"></div>Maki Tuna</li>
+                <li><div class="rocket_ship"></div>Maki Salmon</li>
+                <li><div class="rocket_ship"></div>Maki Avocado</li>
+                <li><div class="rocket_ship"></div>Maki Tamago</li>
+            </ul>
+            <h2>Contact Us</h2>
+            <section class="contact_section">
+                <form>
+                    <div class="form_group">
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form_group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" required>
+                    </div>
+                    <div class="form_group">
+                        <input type="submit" value="send">
+                    </div>
+                </form>
+            </section>
+        </main>
+    </div>
     <footer>
         <section class="information">
             <h3>WHO WE ARE</h3>
