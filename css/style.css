@@ -302,11 +302,14 @@ footer h4 {
 .top_images {
     display: flex;
     gap: 32px;
-    margin-bottom: 32px;
 }
 
 .top_images img {
     border: 4px solid #E6DBFE;
+}
+
+.list_of_sushi {
+    margin-top: 32px;
 }
 
 .rocket_ship {
@@ -338,19 +341,15 @@ ul li {
     margin-bottom: 16px;
 }
 
-.contact_section {
-    display: flex;
-    margin-top: 32px;
-    height: 503px;
-    background: #EFECFF;
-    margin-bottom: 485px;
-}
-
-.contact_section form {
+form {
     display: flex;
     flex-direction: column;
     gap: 20px;
     padding: 32px;
+    margin-top: 32px;
+    height: 503px;
+    background: #EFECFF;
+    margin-bottom: 485px;
 }
 
 .form_group {
