@@ -79,3 +79,162 @@ a {
 nav a:hover {
     color: #c38cf3;
 }
+
+.top_section {
+    height: 797px;
+    background-image: url(../images/sushi-restaurant.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Nunito;
+    line-height: normal;
+    font-style: normal;
+}
+
+h1 {
+    color: #612999;
+    font-weight: 800;
+    padding: 32px;
+    font-size: 96px;
+}
+
+.top_section  p {
+    color: #000;
+    font-weight: 600;
+    width: 448px;
+    font-size: 24px;
+    margin-left: 32px;
+}
+
+#wrapper {
+    margin: 0px 32px;
+}
+
+.about_section {
+    font-family: Rubik;
+    font-style: normal;
+    padding-bottom: 15px;
+    margin-top: 32px;
+}
+
+.about_section h2 {
+    margin-bottom: 32px;
+}
+
+.cards_section h2 {
+    width: 100%;
+}
+
+h2 {
+    color: #612999;
+    font-family: Rubik;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 40px;
+    font-style: normal;
+}
+
+.about_section p {
+    color: #000;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140.625%;
+    margin-bottom: 24px;
+}
+
+.cards_section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding-bottom: 32px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 496px;
+    width: 376px;
+    flex-shrink: 0;
+    border-radius: 38px;
+    background: #EFECFF;
+    box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
+    position: relative;
+}
+
+.heart_icon {
+    width: 47px;
+    height: 47px;
+    background-color: #EFECFF;
+    border-radius: 100%;
+    background-image: url(../images/heart-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 414px;
+    left: 287px;
+}
+
+.shopping_icon {
+    width: 63px;
+    height: 63px;
+    background-color: #612999;
+    border-radius: 100%;
+    background-image: url(../images/shopping-card.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 27px;
+    left: 262px;
+}
+
+.cards_section img {
+    display: flex;
+    border-radius: 38px;
+    width: 376px;
+    height: 276px;
+}
+
+.cards_section h3 {
+    color: #000;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 32px;
+    top: 302px;
+}
+
+.cards_section h4 {
+    color: #612999;
+    text-align: justify;
+    font-family: Abel;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    left: 32px;
+    bottom: 36px;
+}
+
+.cards_section p {
+    color: #333;
+    font-family: Abel;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    top: 342px;
+    left: 32px;
+    right: 29px;
+    margin-top: 7px;
+}
+
