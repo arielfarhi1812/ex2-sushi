@@ -276,11 +276,9 @@ footer h3 {
 }
 
 .links {
+    display: flex;
     margin-top: 16px;
-}
-
-footer img {
-    margin-right: 24px;
+    gap: 24px;
 }
 
 footer h4 {
@@ -291,6 +289,7 @@ footer h4 {
     font-weight: 600;
     line-height: normal;
     margin-top: 16px;
+    margin-bottom: 51px;
 }
 
 .media {
@@ -315,7 +314,6 @@ footer h4 {
 .rocket_ship {
     border-radius: 46.5px;
     background: #612999;
-    backdrop-filter: blur(10px);
     width: 82px;
     height: 82px;
     background-image: url(../images/rocket-icon.png);
@@ -341,7 +339,7 @@ ul li {
     margin-bottom: 16px;
 }
 
-form {
+.form_section {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -369,7 +367,7 @@ input[type="tel"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
-    margin-right: 350px;
+    margin-bottom: 20px;
 }
 
 input[type="submit"] {
