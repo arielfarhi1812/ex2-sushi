@@ -332,3 +332,71 @@ footer h4 {
     margin-right: 16px;
 }
 
+ul {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+ul li {
+    display: flex;
+    color: #000;
+    font-family: Rubik;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.contact_section {
+    display: flex;
+    margin-top: 32px;
+    height: 503px;
+    background: #EFECFF;
+    margin-bottom: 485px;
+}
+
+.contact_section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px;
+}
+
+.form_group {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 900px;
+}
+
+input[type="submit"] {
+    align-self: flex-start;
+    padding: 10px 20px;
+    background-color: #612999;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #c38cf3;
+}
+
+
